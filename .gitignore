@@ -1,0 +1,5 @@
+# ccc's own session-local config (the product is template/.claude/, not this)
+/.claude/settings.local.json
+/.claude/.ccc-source
+CLAUDE.local.md
+*.bak

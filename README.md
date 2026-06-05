@@ -26,7 +26,7 @@ personal `settings.local.json`, and re-running it is safe (idempotent).
 | `CLAUDE.md` + `rules/` | Layered, `@import`ed context: language-agnostic fundamentals + git/testing + TS/Python stack rules (path-scoped). **Guidance.** |
 | `settings.json` | Permissions (allow/ask/deny) and hook wiring. **Enforced.** |
 | `hooks/` | Guardrails: block destructive bash & secret/lockfile edits, auto-format on save, inject git status at session start. **Enforced** — they hold even in autonomous runs. |
-| `skills/` | `autoloop` (ralph-style autonomy loop with stop conditions), `ship` (plan→verify→commit), `sync-config` (pull updates from ccc). |
+| `skills/` | `autoloop` (ralph-style autonomy loop with stop conditions), `ship` (plan→verify→commit), `sync-config` (pull updates from ccc), `reflect` (learn from interactions → propose config improvements, always surfaced). |
 | `agents/` | `explorer`, `reviewer`, `test-runner`, `debugger` — task-based, model-tiered subagents (Haiku for read/run, Opus for review/debug) that keep the main context lean. The main session acts as tech lead and delegates to them. |
 | `.mcp.json.example` | Optional MCP servers, opt-in per repo. |
 

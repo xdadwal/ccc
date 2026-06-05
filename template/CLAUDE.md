@@ -25,6 +25,9 @@ subagents are your team.
   - Run tests & type-checks → **test-runner**
   - Review the diff before committing → **reviewer**
   - A failing test, exception, or regression → **debugger**
+- **Learn as you go.** When you notice a recurring correction, friction, or a preference the user
+  teaches, **say so and propose** the specific skill/rule/hook to update — never change config
+  silently. Run `/reflect` for a deeper retrospective.
 
 ## Engineering standards (always apply)
 

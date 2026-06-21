@@ -24,7 +24,7 @@ template/
     settings.json                  # permissions (allow/ask/deny) + hook wiring
     settings.local.json.example    # personal overrides (gitignored in target)
     rules/*.md                     # modular context; stack files use `paths:` frontmatter
-    skills/<name>/SKILL.md         # autoloop, ship, sync-config, reflect
+    skills/<name>/SKILL.md         # autoloop, ship, raise-pr, update-readme, sync-config, reflect
     agents/*.md                    # explorer, reviewer, test-runner, debugger (task-based, model-tiered)
     hooks/*.sh                     # guard-bash, protect-paths, format-on-write, session-context
     .mcp.json.example              # optional MCP servers

@@ -48,5 +48,6 @@ stacks this repo doesn't use** to keep context lean.
 
 - This file and `.claude/rules/` are **guidance** — followed as judgment, not guaranteed.
 - `.claude/settings.json` **permissions** and `.claude/hooks/` are **enforced** regardless: they
-  block secret-file edits, dangerous shell commands, and auto-format on save. If something *must*
-  always hold, it belongs there — tell me and I'll add a rule + a hook, not just a sentence here.
+  block secret-file edits, secrets in commits, commits/pushes to `main`/`master`, dangerous shell
+  commands, and auto-format on save. If something *must* always hold, it belongs there — tell me
+  and I'll add a rule + a hook, not just a sentence here.

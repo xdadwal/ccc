@@ -26,7 +26,7 @@ template/
     rules/*.md                     # modular context; stack files use `paths:` frontmatter
     skills/<name>/SKILL.md         # autoloop, ship, raise-pr, update-readme, sync-config, reflect
     agents/*.md                    # explorer, reviewer, test-runner, debugger (task-based, model-tiered)
-    hooks/*.sh                     # guard-bash, protect-paths, format-on-write, session-context
+    hooks/*.sh                     # guard-bash, protect-paths, block-main-commit, no-secrets-in-commit, format-on-write, session-context
     .mcp.json.example              # optional MCP servers
 ```
 
